@@ -68,7 +68,6 @@ Se implementó exitosamente un sistema completo de listas numeradas y con viñet
 ├── traverser.ts
 ├── util.spec.ts
 └── util.ts
-
 ```
 
 ## Problema Resuelto
