@@ -41,3 +41,11 @@ export const appendRelationship = (
 
     return relationshipElements;
 };
+
+export const checkIfNumberingRelationExists = (relationships: Element): boolean => {  
+    const relationshipElements = getFirstLevelElements(relationships, "Relationships");  
+      
+    return relationshipElements.some(element =>   
+        element.attributes?.Type === "http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering"  
+    );  
+};
