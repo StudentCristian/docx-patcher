@@ -22,6 +22,55 @@
 
 Se implementó exitosamente un sistema completo de listas numeradas y con viñetas para el patcher API de docx, permitiendo la creación dinámica de listas en documentos template. Esta funcionalidad extiende significativamente las capacidades del patcher, que anteriormente solo soportaba reemplazo de texto y párrafos.
 
+## Estructura 
+```
+.
+├── content-types-manager.ts
+├── from-docx.ts
+├── index.ts
+├── list-patch-types.ts
+├── numbering-manager.ts
+├── paragraph-split-inject.ts
+├── paragraph-token-replacer.ts
+├── patch-detector.ts
+├── relationship-manager.ts
+├── replacer.ts
+├── run-renderer.ts
+├── traverser.ts
+└── util.ts
+---
+.
+├── content-types-manager.spec.ts
+├── content-types-manager.ts
+├── from-docx.spec.ts
+├── from-docx.ts
+├── index.ts
+├── list-patch-detection.spec.ts
+├── list-patch-types.ts
+├── numbering-manager.spec.ts
+├── numbering-manager.ts
+├── numbering-relationships.spec.ts
+├── numbering-serialization.spec.ts
+├── paragraph-split-inject.spec.ts
+├── paragraph-split-inject.ts
+├── paragraph-token-replacer.spec.ts
+├── paragraph-token-replacer.ts
+├── patch-detector.spec.ts
+├── patch-detector.ts
+├── patch-lists.spec.ts
+├── relationship-manager.spec.ts
+├── relationship-manager.ts
+├── replacer.spec.ts
+├── replacer.ts
+├── run-renderer.spec.ts
+├── run-renderer.ts
+├── traverser.spec.ts
+├── traverser.ts
+├── util.spec.ts
+└── util.ts
+
+```
+
 ## Problema Resuelto
 
 **Problema Principal**: El patcher API de docx no tenía soporte para crear listas numeradas o con viñetas dinámicamente en documentos template. Los usuarios solo podían insertar texto plano o párrafos individuales, pero no estructuras de lista complejas.
