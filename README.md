@@ -371,7 +371,9 @@ La implementación exitosa del sistema de listas numeradas en el patcher API rep
 La arquitectura modular y el diseño extensible permiten futuras mejoras como soporte para listas multinivel más complejas, estilos de numeración personalizados, y integración con otros sistemas de formato de documento.
 
 Wiki pages you might want to explore:
-- [Document Modification (dolanmiu/docx)](/wiki/dolanmiu/docx#7)
+- [DeepWiki](https://deepwiki.com/search/divida-los-problemas-complejos_00b04270-b95c-4511-b5cd-3a25e7f60f4a)
+
+- [Patcher API](https://deepwiki.com/dolanmiu/docx/7.1-patcher-api)
 
 Made with 💖
 
